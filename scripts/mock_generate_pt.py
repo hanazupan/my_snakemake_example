@@ -21,7 +21,7 @@ parser.add_argument('--recalculate', action='store_true',
 
 def run_generate_pt():
     my_args = parser.parse_args()
-    print(f"A run with args {my_args.m1} {my_args.m2} {my_args.recalculate}")
+    print(f"A run with args {my_args.m1} {my_args.m2} {my_args.recalculate} {my_args.bodygrid} {my_args.origingrid} {my_args.transgrid}")
 
 
 if __name__ == '__main__':
